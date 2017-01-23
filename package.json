@@ -4,8 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.21",
+    "mongoose": "^4.7.7",
+    "nodemon": "^1.11.0",
+    "redis": "^2.6.5",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
